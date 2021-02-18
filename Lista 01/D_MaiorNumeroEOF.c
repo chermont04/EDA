@@ -2,8 +2,9 @@
 
 int main() {
 
-  int n,maior = -2147483648;
+  int n,maior;
 
+  scanf("%d", &maior);
   while(scanf("%d",&n) != EOF){
       if (n > maior) {
         maior = n;
