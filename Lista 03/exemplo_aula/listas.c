@@ -34,7 +34,6 @@ int remover (no *elem, ITEM *y) {
 }
 
 void imprimir (no *le) {
-  printf("le");
   if (le != NULL)
     for(no *elem = le -> prox; elem != NULL; elem = elem -> prox) {
       printf(" -> ");
