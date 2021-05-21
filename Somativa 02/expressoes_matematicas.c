@@ -52,7 +52,7 @@ int topo(Pilha *p) {
   return p->topo;
 }
 
-char eleTopo(Pilha *p) {
+char elemntoTopo(Pilha *p) {
   return p->v[p->topo - 1];
 }
 
